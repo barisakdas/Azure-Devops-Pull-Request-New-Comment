@@ -1,0 +1,28 @@
+{
+  "configDatas": [
+    {
+      "key": "sonarqubeDomain",
+      "value": "{your_sonarqube_domain}"
+    },
+    {
+      "key": "azureDevopsDomain",
+      "value": "{your_azure_domain}"
+    },
+    {
+      "key": "azureUserName",
+      "value": "{your_azure_username}"
+    },
+    {
+      "key": "azurePathToken",
+      "value": "{your_azure_token}"
+    },
+    {
+      "key": "SonarqubeUserName",
+      "value": "{your_sonarqube_username}"
+    },
+    {
+      "key": "SonarqubePassword",
+      "value": "{your_sonarqube_password}"
+    }
+  ]
+}
