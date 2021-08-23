@@ -1,0 +1,34 @@
+{
+  "Type": "Document",
+  "App Name": "Sonarqube Result Alert",
+  "Description": "This api application takes the structures that fit the desired conditions through the installed sonarqube application and on Azure Devops. It is used to comment on pr's.",
+  "Author": "Barış Akdaş (SCM)",
+  "Steps" : [
+    {
+      "Id": "1",
+      "Step Description" : "With the help of Sonarqube APIs, we get the desired results from there.",
+      "Step Path": "SonarqubeOps > GetSonarQubeResults()"
+    },
+    {
+      "Id": "2",
+      "Step Description" : "We get the pr id, the project and other needed data from the tasks in the incoming result data..",
+      "Step Path": "SonarqubeOps > GetSonarQubeResults()"
+    },
+    {
+      "Id": "3",
+      "Step Description" : "We find the repository id from the data here.",
+      "Step Path": "AzureOps > GetRepositoryId()"
+    },
+    {
+      "Id": "4",
+      "Step Description" : "We create a thread on the obtained pr id.",
+      "Step Path": "AzureOps > CreateThread()"
+    },
+    {
+      "Id": "5",
+      "Step Description" : "Finally, we print the desired comments on the created thread.",
+      "Step Path": "AzureOps > AddComment()"
+    }
+  ],
+  "How To Use": ""
+}

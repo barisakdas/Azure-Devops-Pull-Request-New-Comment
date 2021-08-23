@@ -1,6 +1,6 @@
 package Models
 
-// Model showing details of pull request
+// PullRequest Model showing details of pull request
 type PullRequest struct {
 	ArtifactID   string `json:"artifactId"`
 	CodeReviewID int64  `json:"codeReviewId"`
@@ -90,4 +90,3 @@ type PullRequest struct {
 	Title              string `json:"title"`
 	URL                string `json:"url"`
 }
-

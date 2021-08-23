@@ -1,5 +1,7 @@
 {
-  "AzureCollection" : "ITCollection",
-  "AzureProject" : "Voltran.SDP",
-  "PullRequestId" : "573"
+  "AzureCollection" : "<Collection_Name>",
+  "AzureProject" : "<Project_Name>",
+  "PullRequestId" : "<Pr_Id>",
+  "AzureDevopsDomain": "<Domanin_Name>>",
+  "RepositoryName": "<Repo_Name>"
 }

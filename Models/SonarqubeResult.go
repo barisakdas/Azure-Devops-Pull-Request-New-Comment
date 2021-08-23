@@ -1,6 +1,6 @@
 package Models
 
-// The response pattern that returns after querying the Sonarqube api.
+// SonarQubeResult The response pattern that returns after querying the Sonarqube api.
 type SonarQubeResult struct {
 	Components []struct {
 		Enabled     bool   `json:"enabled"`

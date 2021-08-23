@@ -1,8 +1,8 @@
 package main
 
 import (
-	. "SonarQubeResultAlert/Log"
-	. "SonarQubeResultAlert/cmd"
+	. "Sonarqube-Result-Alert/Cmd"
+	. "Sonarqube-Result-Alert/Log"
 	"net/http"
 )
 

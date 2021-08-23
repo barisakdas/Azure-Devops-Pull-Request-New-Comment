@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/SonarQubeResultAlert.iml" filepath="$PROJECT_DIR$/.idea/SonarQubeResultAlert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Sonarqube-Result-Alert.iml" filepath="$PROJECT_DIR$/.idea/Sonarqube-Result-Alert.iml" />
     </modules>
   </component>
 </project>

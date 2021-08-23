@@ -1,0 +1,14 @@
+-- Sonarqube Result Alert Döküman --
+
+    Bu api uygulaması kurulu olan sonarqube uygulaması üzeriden istenen durumlara uyan yapıları alıp Azure Devops üzerindeki
+pr'lara comment atmak için kullanılıyor.
+
+-- Adımlar --
+1) Sonarqube apileri yardımıyla oradan istenen sonuçları alıyoruz. "info: SonarqubeOps > GetSonarQubeResults"
+2) Gelen result datasının içindeki taskları içinden pr id sini, projeyi ve ihtiyaç olan diğer verileri alıyoruz.
+3) Buradaki verilerden repository id sini buluyoruz. "info: AzureOps > GetRepositoryId"
+4) Elde edilen pr id üzerine bir thread oluşturuyoruz. "info: AzureOps > CreateThread"
+5) En son olarak da oluşturulan thread üzerine istenen yorumları basıyoruz. "info: AzureOps > AddComment"
+
+-- Nasıl Kullanılır
+Api üzerine gelecek bir post body tarafından çalıştırılarak kullanılır. Gelecek olan request örneği /Config/SampleRequest.json şeklinde olmalıdır.

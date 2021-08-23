@@ -1,6 +1,6 @@
 package Models
 
-// Model that holds usernames, passwords, and other required parametric information
+// ConfigDatas Model that holds usernames, passwords, and other required parametric information
 type ConfigDatas struct {
 	ConfigDatas []struct {
 		Key   string `json:"key"`

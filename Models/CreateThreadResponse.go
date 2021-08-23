@@ -1,6 +1,6 @@
 package Models
 
-// The pattern of the response returned when a thread is created on Azure Devops. The id here will help us add a comment.
+// CreateTheradResponse The pattern of the response returned when a thread is created on Azure Devops. The id here will help us add a comment.
 type CreateTheradResponse struct {
 	Links struct {
 		Repository struct {
@@ -55,4 +55,3 @@ type CreateTheradResponse struct {
 	PullRequestThreadContext interface{} `json:"pullRequestThreadContext"`
 	ThreadContext            interface{} `json:"threadContext"`
 }
-

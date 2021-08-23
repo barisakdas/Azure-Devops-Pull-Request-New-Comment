@@ -1,7 +1,7 @@
 package Config
 
 import (
-	. "SonarQubeResultAlert/Models"
+	. "Sonarqube-Result-Alert/Models"
 	"encoding/json"
 	"io/ioutil"
 )
